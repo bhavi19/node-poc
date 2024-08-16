@@ -1,0 +1,26 @@
+{
+  "name": "nodepoc",
+  "version": "1.0.0",
+  "description": "CRUD ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavi19/node-poc.git"
+  },
+  "author": "Bhavika Vyas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhavi19/node-poc/issues"
+  },
+  "homepage": "https://github.com/bhavi19/node-poc#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.3",
+    "nodemon": "^3.1.4"
+  }
+}
