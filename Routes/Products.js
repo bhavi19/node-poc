@@ -1,6 +1,6 @@
 const express = require("express")
 const router = express.Router();
-const { getAllProducts, getAllProductsTesting } = require("../Container/Products")
+const { getAllProducts, getAllProductsTesting } = require("../Controller/Products")
 
 router.route("/").get(getAllProducts)
 router.route("/testing").get(getAllProductsTesting)
